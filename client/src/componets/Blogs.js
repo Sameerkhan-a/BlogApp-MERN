@@ -39,7 +39,6 @@ const Blogs = () => {
       return res.data;
     } catch (err) {
       setError("Failed to fetch blogs");
-      console.log(err);
       return null;
     } finally {
       setLoading(false);

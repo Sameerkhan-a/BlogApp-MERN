@@ -42,13 +42,13 @@ api.interceptors.response.use(
 
 // Auth API calls
 export const authAPI = {
-  login: (email, password) => 
+  login: (email, password) =>
     api.post('/api/users/login', { email, password }),
-  
-  signup: (name, email, password) => 
+
+  signup: (name, email, password) =>
     api.post('/api/users/signup', { name, email, password }),
-  
-  getAllUsers: () => 
+
+  getAllUsers: () =>
     api.get('/api/users')
 };
 

@@ -9,8 +9,7 @@ import {
   IconButton,
   Typography,
   Chip,
-  Stack,
-  Divider
+  Stack
 } from "@mui/material";
 import React from "react";
 import ModeEditOutlineIcon from "@mui/icons-material/ModeEditOutline";

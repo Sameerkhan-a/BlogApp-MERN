@@ -17,10 +17,7 @@ import config from "../config";
 import TagInput from "./TagInput";
 import ImageUpload from "./ImageUpload";
 
-const labelStyles = { mb: 1, mt: 2, fontSize: "18px", fontWeight: "bold" };
-
 const AddBlogs = () => {
-  const classes = useStyles();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");

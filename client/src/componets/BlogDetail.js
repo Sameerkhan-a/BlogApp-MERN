@@ -16,10 +16,7 @@ import { blogAPI } from "../utils/api";
 import TagInput from "./TagInput";
 import ImageUpload from "./ImageUpload";
 
-const labelStyles = { mb: 1, mt: 2, fontSize: "18px", fontWeight: "bold" };
-
 const BlogDetail = () => {
-  const classes = useStyles();
   const navigate = useNavigate();
   const { id } = useParams();
 
