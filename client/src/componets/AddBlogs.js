@@ -58,7 +58,6 @@ const AddBlogs = () => {
       });
       return res.data;
     } catch (err) {
-      console.log(err);
       throw err;
     } finally {
       setLoading(false);
@@ -77,7 +76,6 @@ const AddBlogs = () => {
 
     sendRequest()
       .then((data) => {
-        console.log(data);
         navigate("/blogs");
       })
       .catch((err) => {

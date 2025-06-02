@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Login from './componets/Login';
 import Blogs from './componets/Blogs';
 import UserBlogs from './componets/UserBlogs'

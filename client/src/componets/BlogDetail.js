@@ -98,7 +98,6 @@ const BlogDetail = () => {
 
     sendRequest()
       .then((data) => {
-        console.log("Blog updated:", data);
         navigate("/myBlogs/");
       })
       .catch(() => {
